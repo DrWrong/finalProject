@@ -1,7 +1,8 @@
 #!/bin/sh
-cd /var/www/finalProject/src/github.com/DrWrong/finalProject_securityserver
+export BASE_PATH=`pwd`
+cd $BASE_PATH/src/github.com/DrWrong/finalProject_securityserver
 ./finalProject_securityserver&
-cd /var/www/finalProject/src/github.com/DrWrong/finalProject_weatherserver
+cd $BASE_PATH/src/github.com/DrWrong/finalProject_weatherserver
 ./finalProject_weatherserver&
-cd /var/www/finalProject/src/github.com/DrWrong/finalProject_UI
+cd $BASE_PATH/src/github.com/DrWrong/finalProject_UI
 ./finalProject_UI&
