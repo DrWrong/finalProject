@@ -16,8 +16,8 @@
 [submodule "src/golang.org/x/net"]
     path=src/golang.org/x/net
     url=https://go.googlesource.com/net
-[submodule "src/gopkg.in/flosch/pongo2.v"]
-    path=src/gopkg.in/flosch/pongo2.v
+[submodule "src/gopkg.in/flosch/pongo2.v3"]
+    path=src/gopkg.in/flosch/pongo2.v3
     url=https://gopkg.in/flosch/pongo2.v3
 [submodule "src/gopkg.in/ini.v1"]
     path=src/gopkg.in/ini.v1
@@ -25,3 +25,15 @@
 [submodule "src/github.com/Sirupsen/logrus"]
     path=src/github.com/Sirupsen/logrus
     url=https://github.com/Sirupsen/logrus
+[submodule "src/github.com/Unknwon/com"]
+    path=src/github.com/Unknwon/com
+    url=https://github.com/Unknwon/com
+[submodule "src/github.com/Unknwon/macaron"]
+    path=src/github.com/Unknwon/macaron
+    url=https://github.com/Unknwon/macaron
+[submodule "src/github.com/macaron-contrib/pongo2"]
+    path=src/github.com/macaron-contrib/pongo2
+    url=https://github.com/macaron-contrib/pongo2
+[submodule "src/github.com/parnurzeal/gorequest"]
+    path=src/github.com/parnurzeal/gorequest
+    url=https://github.com/parnurzeal/gorequest
